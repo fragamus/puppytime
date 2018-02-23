@@ -6,5 +6,7 @@ target 'Puppy Time' do
   use_frameworks!
 
   # Pods for Puppy Time
+  
+  pod 'Layout', '~> 0.6'
 
 end
