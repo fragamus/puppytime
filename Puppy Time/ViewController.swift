@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Layout
 
-class ViewController: UIViewController {
+class ViewController: LayoutViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        loadLayout(named: "mainlayout.xml", constants: [
+            "image": UIImage(named: "daisy-small-steps")!,
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            ])
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +26,9 @@ class ViewController: UIViewController {
 
 
 }
+
+
+
+
+
 

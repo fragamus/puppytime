@@ -13,6 +13,7 @@
 		6B94005C203FCECE008A84E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B94005A203FCECE008A84E9 /* Main.storyboard */; };
 		6B94005E203FCECE008A84E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B94005D203FCECE008A84E9 /* Assets.xcassets */; };
 		6B940061203FCECE008A84E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B94005F203FCECE008A84E9 /* LaunchScreen.storyboard */; };
+		6BBBD40E2040064D00E79A6D /* mainlayout.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6BBBD40D2040064D00E79A6D /* mainlayout.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6B94005D203FCECE008A84E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B940060203FCECE008A84E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B940062203FCECE008A84E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBBD40D2040064D00E79A6D /* mainlayout.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mainlayout.xml; sourceTree = "<group>"; };
 		D85EBD67D9690E214FC38B31 /* Pods-Puppy Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Puppy Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Puppy Time/Pods-Puppy Time.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				6B940058203FCECE008A84E9 /* ViewController.swift */,
 				6B94005A203FCECE008A84E9 /* Main.storyboard */,
 				6B94005D203FCECE008A84E9 /* Assets.xcassets */,
+				6BBBD40D2040064D00E79A6D /* mainlayout.xml */,
 				6B94005F203FCECE008A84E9 /* LaunchScreen.storyboard */,
 				6B940062203FCECE008A84E9 /* Info.plist */,
 			);
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBBD40E2040064D00E79A6D /* mainlayout.xml in Resources */,
 				6B940061203FCECE008A84E9 /* LaunchScreen.storyboard in Resources */,
 				6B94005E203FCECE008A84E9 /* Assets.xcassets in Resources */,
 				6B94005C203FCECE008A84E9 /* Main.storyboard in Resources */,
@@ -165,9 +169,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Puppy Time/Pods-Puppy Time-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Layout/Layout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Layout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

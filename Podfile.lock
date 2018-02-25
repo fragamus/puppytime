@@ -1,3 +1,14 @@
-PODFILE CHECKSUM: ec61aa7144c1547ed1fbf1ddb1dee2af0b7acda0
+PODS:
+  - Layout (0.6.9):
+    - Layout/Core (= 0.6.9)
+  - Layout/Core (0.6.9)
+
+DEPENDENCIES:
+  - Layout (~> 0.6)
+
+SPEC CHECKSUMS:
+  Layout: 7ea202da124a84f4e38d2f0838cbba3b13d06e75
+
+PODFILE CHECKSUM: 3469f36ce64ef2878f45f9b42ca09e49ad9e159d
 
 COCOAPODS: 1.3.1
